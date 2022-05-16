@@ -1,0 +1,36 @@
+{
+  "name": "gmsystem/resizer",
+  "description": "image resizer and optimizer thumbs PHP's manager",
+  "keywords": [
+    "GMSystem",
+    "Upload",
+    "image thumb",
+    "image crop",
+    "image cache",
+    "thumbnails jpg",
+    "thumbnails png",
+    "thumbnails webp",
+    "webp converter"
+  ],
+  "homepage": "https://www.prolweb.com.br",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Genilson M. Souza",
+      "email": "cursos@prolweb.com.br",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "ext-gd": "*",
+    "ext-mbstring": "*",
+    "ext-fileinfo": "*",
+    "rosell-dk/webp-convert": "2.5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "GMSystem\\Resizer\\": "src"
+    }
+  }
+}
